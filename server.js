@@ -9,7 +9,7 @@ app.get("/", function(req, res){
     res.send("<h1>Node Nigger</h1>")
 });
 
-app.get("/contact, function(req, res){
+app.get("/contact", function(req, res){
     res.send("Contact me at: pauldropz@gmail.com");
 
 });
