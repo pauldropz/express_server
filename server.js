@@ -2,6 +2,8 @@
 
 const express = require("expreess");
 
+
+app.get("/")
 const app = express();
 
 
