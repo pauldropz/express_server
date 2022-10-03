@@ -4,7 +4,7 @@ const express = require("expreess");
 
 
 app.get("/", function(request, response){
-    console.log(request);
+    response.send("<h1>Node Nigger</h1>")
 })
 const app = express();
 
