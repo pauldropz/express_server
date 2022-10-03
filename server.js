@@ -3,7 +3,9 @@
 const express = require("expreess");
 
 
-app.get("/")
+app.get("/", function(request, response){
+    console.log(request);
+})
 const app = express();
 
 
