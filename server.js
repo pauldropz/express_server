@@ -6,8 +6,12 @@ const app = express();
 
 
 app.get("/", function(req, res){
-    response.send("<h1>Node Nigger</h1>")
-})
+    res.send("<h1>Node Nigger</h1>")
+});
+
+app.get("/contact, function(req, res){
+    
+}
 
 
 app.listen(3000, function (){
