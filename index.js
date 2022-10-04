@@ -4,5 +4,6 @@ const fs = require("fs");
 
 
 
-fs.copyFile.Sync=("file.txt, file2.txt")
-const dripper = require ("dripper");
+fs.copyFileSync=("file1.txt, file2.txt")
+
+
