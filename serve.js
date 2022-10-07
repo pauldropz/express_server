@@ -1,9 +1,11 @@
 function paul() {
     return (
 
-                "GOAT"
+                "GOAT "
+              +  "COW"
         
         );
 }
 
 console.log (paul());
+Object.assign();
