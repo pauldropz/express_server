@@ -1,11 +1,7 @@
-function paul() {
-    return (
+const mission = "learn";
 
-                "GOAT "
-              +  "COW"
-        
-        );
+if (mission === "learn") {
+    console.log ("Time to write some node code");
+} else {
+    console.log ("Is " + mission + " Actually " + "more " + "Fun" + "!" + "!");
 }
-
-console.log (paul());
-Object.assign();
