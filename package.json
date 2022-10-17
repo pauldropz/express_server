@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/pauldropz/express_server/issues"
   },
-  "homepage": "https://github.com/pauldropz/express_server#readme"
+  "homepage": "https://github.com/pauldropz/express_server#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
