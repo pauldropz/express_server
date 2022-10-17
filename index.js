@@ -5,4 +5,7 @@ const app = express();
 
 
             // For getting
-app.get()
+app.get();
+            // For creating
+app.post();
+            
