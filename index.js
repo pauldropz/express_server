@@ -14,4 +14,8 @@ const app = express();
 // app.delete();
 
 
-app.get()
+app.get("/", (req, res) => {
+     res.send("Moorning World");
+});
+
+app.listen(3000, () =>)
